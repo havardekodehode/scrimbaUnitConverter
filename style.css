@@ -1,6 +1,6 @@
 :root{
     /* Color palette */
-    --header-bg-color: #a09abc;
+    --hero-bg-color: #a09abc;
     --main-bg-color: #d5cfe1;
     --buttonAndMainPosts-bg-color: #E1DEE9;
 
@@ -30,37 +30,58 @@ input{
     background: none;
     color: white;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 21em;
     border: solid white 1px;
+    border-radius: 8px;
+    height: 84px;
+    width: 152px;
+
 }
 
 button{
     display: block;
-    width: 100px;
+    height: 72px;
+    width: 241px;
     margin: 30px auto 10px auto;
     padding: 5px 20px;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 600;
     background-color: var(--buttonAndMainPosts-bg-color);
     border: none;
 }
 
-ul{
-    list-style: none;
+.mainmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0px;
     padding: 40px;
+    /* border: 2px solid black; */
+
 }
 
-li{
+.post{
     background-color: var(--buttonAndMainPosts-bg-color);
     padding: 10px;
     margin: 10px 20px;
     margin-bottom: 50px;
-    he
+    /* border: 2px solid black; */
+    width: 80%;
+
 }
 
-.header{
-    background-color: var(--header-bg-color);
-    height: 250px;
+.post h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--hero-bg-color);
     width: 100%;
 }
 
