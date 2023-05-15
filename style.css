@@ -1,0 +1,73 @@
+:root{
+    /* Color palette */
+    --header-bg-color: #a09abc;
+    --main-bg-color: #d5cfe1;
+    --buttonAndMainPosts-bg-color: #E1DEE9;
+
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input{
+    padding: 5px 15px;
+    width: 20px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: solid white 1px;
+}
+
+button{
+    display: block;
+    width: 100px;
+    margin: 30px auto 10px auto;
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: var(--buttonAndMainPosts-bg-color);
+    border: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 40px;
+}
+
+li{
+    background-color: var(--buttonAndMainPosts-bg-color);
+    padding: 10px;
+    margin: 10px 20px;
+    margin-bottom: 50px;
+    he
+}
+
+.header{
+    background-color: var(--header-bg-color);
+    height: 250px;
+    width: 100%;
+}
+
+.main {
+    background-color: var(--main-bg-color);
+    height: 100%;
+    width: 100%;
+    
+
+}
