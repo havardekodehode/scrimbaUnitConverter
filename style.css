@@ -30,11 +30,12 @@ input{
     background: none;
     color: white;
     font-weight: bold;
-    font-size: 21em;
+    font-size: 5em;
     border: solid white 1px;
     border-radius: 8px;
     height: 84px;
     width: 152px;
+    text-align: center;
 
 }
 
